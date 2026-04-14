@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Tic-Tac-Toe (Dynamic Grid) – Next.js
 
-## Getting Started
+A fully interactive, scalable Tic-Tac-Toe game built with Next.js and React.  
+This project extends the classic game into a flexible, production-ready application with dynamic board sizing, custom win logic, and enhanced user experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✅ Core Functionality
+- Built a fully interactive **4×4 Tic-Tac-Toe game** with custom win logic
+- Implemented **robust state management** using React hooks
+- Supports **dynamic board sizes**:
+  - 3×3
+  - 4×4
+  - 5×5
+- Custom **winner detection algorithm** that adapts to any board size
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🎯 Game Enhancements
+- ✅ **Draw detection** (detects when no moves remain)
+- ✅ **Score tracking system** (X vs O wins)
+- ✅ **New Game / Reset functionality**
+- ✅ **Move history (time travel)**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### 🎨 UI / UX Improvements
+- 📱 **Mobile-responsive layout**
+- ♿ **Accessibility considerations** (semantic buttons, keyboard-friendly)
+- ✨ Improved **user experience and visual clarity**
+- Clean grid layout with responsive scaling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ⚙️ Tech Stack
 
-## Deploy on Vercel
+- **Framework:** Next.js
+- **Library:** React
+- **Styling:** CSS (written in a modern, structured styling approach)
+- **State Management:** React Hooks (`useState`)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 Key Concepts Demonstrated
+
+- Dynamic UI rendering using array mapping
+- Immutable state updates (`slice`, spread operator)
+- Algorithmic win detection for variable grid sizes
+- Component-based architecture
+- Separation of concerns (Game, Board, Square)
+- Scalable design patterns
+
+---
+
+## 📂 Upcoming Improvements
+
+- Add an AI opponent
+- Save progress on a database
+- y...and many more!
