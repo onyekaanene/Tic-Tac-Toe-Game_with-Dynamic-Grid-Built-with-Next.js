@@ -3,7 +3,18 @@
 
 A fully interactive, scalable Tic-Tac-Toe game built with Next.js and React.  
 This project extends the classic game into a flexible, production-ready application with dynamic board sizing, custom win logic, and enhanced user experience.
+
+## 🚀 Live Demo
 - Play Game: **https://tictactoe.onyekaanene.com/**
+
+---
+
+### ⚙️ Tech Stack
+
+- **Framework:** Next.js
+- **Library:** React
+- **Styling:** CSS (written in a modern, structured styling approach)
+- **State Management:** React Hooks (`useState`)
 
 ---
 
@@ -36,15 +47,6 @@ This project extends the classic game into a flexible, production-ready applicat
 
 ---
 
-### ⚙️ Tech Stack
-
-- **Framework:** Next.js
-- **Library:** React
-- **Styling:** CSS (written in a modern, structured styling approach)
-- **State Management:** React Hooks (`useState`)
-
----
-
 ## 🧠 Key Concepts Demonstrated
 
 - Dynamic UI rendering using array mapping
@@ -61,3 +63,19 @@ This project extends the classic game into a flexible, production-ready applicat
 - Add an AI opponent
 - Save progress on a database
 - ...and many more!
+
+---
+
+## 👨‍💻 Author
+
+**Built with ❤️ by Onyekachukwu Anene** — Software Engineer (Applied AI & SaaS) | Building AI-powered web & mobile products. Available for freelance and full-time opportunities.
+
+[![GitHub](https://img.shields.io/badge/GitHub-onyekaanene-181717?style=flat&logo=github)](https://github.com/onyekaanene)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/onyekachukwu-anene)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat)](https://www.onyekaanene.com/projects)
+
+---
+
+## 📄 License
+
+MIT — feel free to fork, use, and build on this.
