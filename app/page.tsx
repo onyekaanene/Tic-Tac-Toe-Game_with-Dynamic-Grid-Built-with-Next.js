@@ -5,12 +5,7 @@ export default function Home() {
     <main className="main">
       <header className="header">
         <h1 className="header__title">Tic-Tac-Toe</h1>
-        <p className="header__subtitle">
-          Classic game with Dynamic board{" "}
-        </p>
-        <p className="header__subtitle2">
-          - Designed by Onyekachukwu Anene
-        </p>
+        <p className="header__subtitle">Classic game. Dynamic board.</p>
       </header>
       <Game initialBoardSize={3} />
     </main>
