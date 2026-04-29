@@ -66,6 +66,7 @@ export default function Game({
 
   return (
     <div className="game">
+      <p className="header__subtitle">*Dynamic board</p>
       <div className="game__layout">
         {/* Left column — controls */}
         <aside className="game__col game__col--left">
