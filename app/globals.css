@@ -88,11 +88,21 @@ body {
 }
 
 .header__subtitle {
+  margin-bottom: 0.3rem;
   margin-top: 0.3rem;
-  font-size: 0.75rem;
+  margin-left: 0.4rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.header__subtitle2 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.12em;
 }
 
 /* ─── Game Shell ────────────────────────────────────────────────── */
